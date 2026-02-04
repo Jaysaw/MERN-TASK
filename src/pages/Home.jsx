@@ -1,5 +1,6 @@
 import Card from "../components/Card";
 import "./Pages.css";
+import "./Home.css";
 
 export default function Home() {
     const tools = [
