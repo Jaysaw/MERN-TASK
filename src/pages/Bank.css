@@ -1,0 +1,86 @@
+.bank-page {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f5f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bank-card {
+    background: white;
+    padding: 35px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+  
+  .bank-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2563eb;
+  }
+  
+  .balance {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .bank-card input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .buttons button {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background: #22c55e;
+    font-size: 1rem;
+  }
+  
+  .buttons .withdraw {
+    background: #ef4444;
+  }
+  
+  h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .transactions {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transactions li {
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .transactions .deposit {
+    background: #dcfce7;
+    color: #166534;
+  }
+  
+  .transactions .withdraw {
+    background: #fee2e2;
+    color: #991b1b;
+  }
+  
